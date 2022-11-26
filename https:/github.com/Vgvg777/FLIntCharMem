@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+
+{
+    int a;
+    float fl;
+    char c;
+
+    printf("Give me a number:\n");
+    scanf("%d",&a);
+    printf("Give me a Floating number:\n");
+    scanf("%f",&fl);
+    printf("Give me a character\n");
+    scanf("%s",&c);
+
+    printf("size of the int is: %lu\n", sizeof(a));
+    printf("size of the float is: %lu\n", sizeof(fl));
+    printf("size of the char is: %lu\n", sizeof(c));
+
+    return 0;
+
+}
